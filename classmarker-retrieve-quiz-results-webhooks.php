@@ -3,7 +3,7 @@
 
 
 // You are given a uniquе secret codе when creating a Wеbhook.
-define('CLASSMARKER_WEBHOOK_SECRET', 'CLASSMARKER_WEBHOOK_SECRET_PHRASE');
+define('CLASSMARKER_WEBHOOK_SECRET', 'YOUR_CLASSMARKER_WEBHOOK_SECRET_PHRASE');
 
 // Verification function.
 function verify_classmarker_webhook($json_data, $header_hmac_signature)
